@@ -78,6 +78,32 @@
           </tr>
       </tbody>
     </table>
+
+    <!-- Modal Box : 일정추가 -->
+    <!-- The Modal -->
+    <div id="AddPlan" class="modal">
+      <!-- Modal content -->
+      <div class="modal-addplan-content" id="addplancontent">
+        <p>일정 추가</p>
+        <input type="text" name="plan" value="" id="planning">
+        <button type="button" name="button" class="add">add</button>
+        <button type="button" name="button" class="cancel">cancel</button>
+      </div>
+    </div>
+
+
+    <!-- Modal Box : 일정변경 -->
+    <div id="ChangePlanList" class="modal">
+      <!-- Modal content -->
+      <div class="modal-changepalnlist-content" id="changepalncontent">
+        <p>일정 변경</p>
+        <input type="date" name="plan" value="" id="changedate">
+        <input type="number" name="plan" value="" id="changenumber">
+        <button type="button" name="button" class="save">save</button>
+        <button type="button" name="button" class="delete">delete</button>
+      </div>
+    </div>
+
     <script type="text/javascript" src="../js/Calendar.js"></script>
   </body>
 </html>
